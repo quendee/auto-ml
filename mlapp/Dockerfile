@@ -7,6 +7,7 @@ WORKDIR "/mlapp"
 
 RUN pip install -r requirements.txt
 
+EXPOSE 8050
 # docker build --rm -t "mlpipe:latest" .
 # docker-compose rm -fs
 # docker-compose up --build -d
