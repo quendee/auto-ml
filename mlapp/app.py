@@ -3,6 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import dash
+from mlapp import dash_utils
 import dash_core_components as dcc
 import dash_html_components as html
 import dash_bootstrap_components as dbc
