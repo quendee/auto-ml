@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  app:
+    build: ./mlapp
+    restart: always
+    command: python app.py
+    ports:
+      - "8050:8050"
+#   nginx:
+#     build: ./nginx
+#     ports:
+#       - "443:443"
+#       - "80:80"
+#     depends_on:
+#       - streamlit_app
