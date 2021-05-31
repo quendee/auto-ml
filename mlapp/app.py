@@ -2,7 +2,6 @@ import typing
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from auto-ml import dash_utils
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
