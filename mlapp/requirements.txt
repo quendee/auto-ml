@@ -34,4 +34,4 @@ threadpoolctl==2.1.0
 typing-extensions==3.10.0.0
 Werkzeug==2.0.1
 zipp==3.4.1
-https://github.com/quendee/auto-ml.git@main#egg=mlapp
+git+git://github.com/quendee/auto-ml.git@main#egg=mlapp
