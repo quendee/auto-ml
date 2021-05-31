@@ -6,7 +6,7 @@ services:
     restart: always
     command: python app.py
     ports:
-      - "8051:8051"
+      - "8050:8050"
 #   nginx:
 #     build: ./nginx
 #     ports:
